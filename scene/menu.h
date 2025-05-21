@@ -13,9 +13,8 @@ typedef struct _Menu
     ALLEGRO_FONT *font;
     ALLEGRO_SAMPLE *song;
     ALLEGRO_SAMPLE_INSTANCE *sample_instance;
-    ALLEGRO_BITMAP *bg;
+    ALLEGRO_BITMAP *bg[2];
     ALLEGRO_BITMAP *title[2];
-    int title_x, title_y;
 } Menu;
 Scene *New_Menu(int label);
 void menu_update(Scene *self);

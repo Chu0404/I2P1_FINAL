@@ -29,7 +29,8 @@ Elements *New_Character(int label)
     pDerivedObj->walk_down[0] = al_load_bitmap("assets/image/front.png");
     pDerivedObj->walk_down[1] = al_load_bitmap("assets/image/front_left.png");
     pDerivedObj->walk_down[2] = al_load_bitmap("assets/image/front_right.png");
-
+    
+    
     pDerivedObj->walk_up[0] = al_load_bitmap("assets/image/back.png");
     pDerivedObj->walk_up[1] = al_load_bitmap("assets/image/back_left.png");
     pDerivedObj->walk_up[2] = al_load_bitmap("assets/image/back_right.png");

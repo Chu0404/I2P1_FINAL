@@ -51,6 +51,7 @@ void execute(Game *self)
         case ALLEGRO_EVENT_KEY_DOWN:
         {
             key_state[event.keyboard.keycode] = true;
+            now_key = event.keyboard.keycode;
             break;
         }
         case ALLEGRO_EVENT_KEY_UP:
